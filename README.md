@@ -22,7 +22,7 @@
         </tr>
         <tr>
             <td>Live #02</td>
-            <td>Apertem os cintos: Evitem turbulência de redes em cloud</td>
+            <td>Apertem os cintos: Evitem turbulência de redes em Cloud</td>
             <td><img width="40px" src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png"></img></td>
             <td><a><img width="100px" src="https://st.depositphotos.com/1031343/4758/v/450/depositphotos_47582053-stock-illustration-coming-soon-stamp.jpg"></img></a></td>
         </tr>
@@ -124,4 +124,14 @@ Todo esse conceito permite com que os ambientes em nuvem pública tenham/forneç
 <h2>Modelo de Arquitetura HUB & Spoke</h2>
 Todo esse papo de Landing Zone se converte em uma arquitetura bem desenhada e implantada, mas nada disso seria realmente interessante se não usassemos um conceito por trás disso tudo. Conceito esse chamado de Hub & Spoke.
 
-Para aqueles que estiverem acostumados com conceitos de rede tradicionais (geralmente visto em ambientes on-premises), o modelo HUB & Spoke nada mais é que uma topologia Estrela. Topologia essa que determina que um ponto central dentro do ambiente é responsável por permitir ou negar comunicação entre redes e/ou segmentos de rede distintos após realizar a inspeção de tráfego necessária. Dentro de uma arquitetura Hub & Spoke, temos um desenho muito semelhante ao que vimos na sessão anterior (<a href="#landing-zone">Landing Zones</a>)
+Para aqueles que estiverem acostumados com conceitos de rede tradicionais (geralmente visto em ambientes on-premises), o modelo HUB & Spoke nada mais é que uma topologia Estrela. Topologia essa que determina que um ponto central dentro do ambiente é responsável por permitir ou negar comunicação entre redes e/ou segmentos de rede distintos após realizar a inspeção de tráfego necessária. Dentro de uma arquitetura Hub & Spoke, temos um desenho muito semelhante ao que vimos na sessão anterior (<a href="#landing-zone">Landing Zones</a>). Porém, para simplificar, vamos ao desenho abaixo:
+<img height="500px" src="./images/HUB&Spoke.png"></img>
+
+Considere o ponto central (HUB) como sendo o centralizador de toda comunicação de rede. Todo tráfego vindo de uma Spoke com destino à qualquer outra Spoke seria inspecionado. Mas não só isso, todo tráfego que entrar pelo HUB com destino à alguma aplicação ou recurso provisionado em nuvem (ingress)também teria seu fluxo sendo inspecionado principalmente pensando em ataques visando explorar alguma possível vulnerabilidade nessa aplicação. Outro ponto importante é que esse mesmo HUB pode servir também para inspecionar tráfego de saída (egress), evitando diferentes tipos de vazamento de dados, sempre de acordo com o que estiver configurado nas políticas das ferramentas de inspeção.
+Outro ponto extramamente interessante é que ao utilizar uma arquitetura com base no modelo Hub & Spoke, toda a parte de conexão entre diferentes ambientes (diferentes Provedores de Cloud e/ou diferentes Regiões) podem ser facilmente conectados entre sí, permitindo com que os melhores recursos de cada provedor de nuvem seja utilizado, sem perder agilidade nem segurança. Principalmente considerando a possibilidade de utilizar um roteamento com base em aplicação, latência, jitter, dentre outras métricas para sempre ter o tráfego roteado pelo caminho em que possibilita uma melhor experiência aos usuários (SD-WAN).
+
+<img height="500px" src="./images/HUB&Spoke-multiplos_ambientes.png"></img>
+
+<h3>Pausa para o café...</h3>
+
+<h2>Mãos à massa</h2>
