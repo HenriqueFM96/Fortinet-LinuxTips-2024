@@ -12,7 +12,7 @@
     </table>
 </h2>
 
-<h2>
+<h3>
     <table>
         <tr>
             <td>Live #01</td>
@@ -27,5 +27,5 @@
             <td>Sobrevoando nuvens e protegendo aplicações</td>
         </tr>
     </table>
-</h2>
+</h3>
 
