@@ -1,7 +1,7 @@
 <h1 style="center">Fortinet @ LinuxTips - 2024</h1>
 
 <h2>
-    <table>
+    <table boder=none>
         <tr>
             <th><img width="200px" src="https://icons.fortinet.com/icons/Logos/Fortinet-logo-rgb-white.svg"></img></th>
             <th><h2>&</h2></th>
