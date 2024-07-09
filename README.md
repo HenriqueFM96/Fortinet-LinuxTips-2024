@@ -16,7 +16,7 @@
     <table>
         <tr>
             <td>Live #01</td>
-            <td>Cibersegurança para todos: uma abordagem leve</td>
+            <td>Cibersegurança para todos: uma abordagem leve sobre riscos e tendências</td>
         </tr>
         <tr>
             <td>Live #02</td>
