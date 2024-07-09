@@ -106,6 +106,8 @@ Dentro desse conceito de Landing Zones, geralmente podemos determinar:
 - Arquitetura de rede para garantir o isolamento do tráfego interno em relação ao tráfego externo.
 - Um modelo operacional geral para migração de dados ou futuros serviços em nuvem.
 
+![LandingZones](image.png)
+
 Todo esse conceito permite com que os ambientes em nuvem pública sejam/forneçam:
 - Maior Controle de Segurança:</br>
     As Landing Zones oferecem uma base robusta para a segurança e permitem a personalização de políticas através das contas. Existem também oportunidades para incorporar serviços de gestão de identidade e acesso (IAM) nas configurações.
