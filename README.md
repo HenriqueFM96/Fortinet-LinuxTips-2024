@@ -39,7 +39,7 @@ Sejam bem-vindos ao conteúdo de Network Security pensado especialmente para voc
 Dentro desse repositório você pode conferir todo o laboratório de ataque e defesa que foi realizado durante a Live #02 (calma que já já liberamos o conteúdo da Live #03).
 
 <h2>Cloud Network Security</h2>
-Quando o assunto é segurança de rede em nuvem, é extremamente importante entender conceitos fundamentais de roteamento e camadas de segurança nativa de nuvem. Abaixo você encontra alguns deles, mas lembre que a live foi gravada e está disponível no link do YouTube na tabela de referêcia das lives.
+Quando o assunto é segurança de rede em nuvem, é extremamente importante entender conceitos fundamentais de rede & roteamento, bem como camadas de segurança nativas de nuvem. Abaixo você encontra alguns deles, mas lembre que a live foi gravada e está disponível no link do YouTube na tabela de referêcia das lives.
 
 <table>
     <tr>
@@ -64,6 +64,20 @@ Quando o assunto é segurança de rede em nuvem, é extremamente importante ente
         <td>Segmento de rede que fica dentro das Redes Privadas</td>
     </tr>
     <tr>
+        <td>VPC Peering</td>
+        <td>vNET Peering</td>
+        <td>VPC Peering</td>
+        <td>VCN Peering</td>
+        <td>Conexão entre diferentes Redes Privadas</td>
+    </tr>
+    <tr>
+        <td>Transit Gateway</td>
+        <td>Virtual WAN</td>
+        <td>Network Connectivity Center</td>
+        <td>Dynamic Routing Gateway</td>
+        <td>Forma de interconectar várias Redes Privadas entre si.</td>
+    </tr>
+    <tr>
         <td>Instância EC2</td>
         <td>Máquina Virtual</td>
         <td>Compute Engine</td>
@@ -76,48 +90,6 @@ Quando o assunto é segurança de rede em nuvem, é extremamente importante ente
         <td>Cloud LB</td>
         <td>Load Balancer</td>
         <td>Balanceador de Carga que direciona o tráfego às aplicações</td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
 </table>
 
