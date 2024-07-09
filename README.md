@@ -108,23 +108,18 @@ Dentro desse conceito de Landing Zones, geralmente podemos determinar:
 
 Todo esse conceito permite com que os ambientes em nuvem pública sejam/forneçam:
 - Maior Controle de Segurança:
-
     As Landing Zones oferecem uma base robusta para a segurança e permitem a personalização de políticas através das contas. Existem também oportunidades para incorporar serviços de gestão de identidade e acesso (IAM) nas configurações.
 
 - Redução da complexidade
-
     As Landing Zones tornam a gestão das cargas de trabalho muito mais simples. Faça suas decisões de design uma vez, salve-as na sua zona de aterragem e atualize-as quando as necessidades do negócio mudarem.
 
 - Isolamento de dados
-
     Em Landing Zones com múltiplas contas, as equipas de nuvem podem conter potenciais ameaças de segurança dentro de uma conta sem afetar as outras. Elas também podem limitar quem tem acesso aos dados, prevenindo a exposição de informações pessoalmente identificáveis (PII), o que está em conformidade com o GDPR.
 
 - Prevenção de erros
-
     As Landing Zones proporcionam às organizações um processo repetível e previsível. Cada vez que uma nova carga de trabalho é implantada, os engenheiros e as equipas de desenvolvimento já sabem como ela se comportará.
 
 - Vantagem competitiva
-
     Ao simplificar processos e tornar as implantações mais diretas, você pode criar novos produtos e implantá-los mais rapidamente do que nunca.
 
 <h2>Modelo de Arquitetura HUB & Spoke</h2>
