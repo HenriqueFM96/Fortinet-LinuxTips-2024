@@ -17,7 +17,8 @@
         <tr>
             <td>Live #01</td>
             <td>Cibersegurança para todos: uma abordagem leve sobre riscos e tendências</td>
-            <td><a href="https://www.youtube.com/watch?v=RrWhapTzxw0&t=6855s&pp=ygUJbGludXh0aXBz"><img width="40px" src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png"></img></a></td>
+            <td><a href="https://www.youtube.com/watch?v=RrWhapTzxw0"><img width="40px" src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png"></img></a></td>
+            <td><a><img width="100px" src="https://st.depositphotos.com/1031343/4758/v/450/depositphotos_47582053-stock-illustration-coming-soon-stamp.jpg"></img></a></td>
         </tr>
         <tr>
             <td>Live #02</td>
