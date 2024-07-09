@@ -106,22 +106,22 @@ Dentro desse conceito de Landing Zones, geralmente podemos determinar:
 - Arquitetura de rede para garantir o isolamento do tráfego interno em relação ao tráfego externo.
 - Um modelo operacional geral para migração de dados ou futuros serviços em nuvem.
 
-![LandingZones](image.png)
+<img height="650px" src="./images/LandingZones.png"></img>
 
-Todo esse conceito permite com que os ambientes em nuvem pública sejam/forneçam:
+Todo esse conceito permite com que os ambientes em nuvem pública tenham/forneçam:
 - Maior Controle de Segurança:</br>
-    As Landing Zones oferecem uma base robusta para a segurança e permitem a personalização de políticas através das contas. Existem também oportunidades para incorporar serviços de gestão de identidade e acesso (IAM) nas configurações.
-
-- Redução da complexidade</br>
-    As Landing Zones tornam a gestão das cargas de trabalho muito mais simples. Faça suas decisões de design uma vez, salve-as na sua zona de aterragem e atualize-as quando as necessidades do negócio mudarem.
+    As Landing Zones oferecem uma base robusta para a segurança e permitem a personalização de políticas através das contas. Existem também oportunidades para incorporar serviços de gestão de identidade e acesso (IAM) nas configurações, atribuindo permissionamento apenas às pessoas que realmente deveriam acessar tais recursos.
 
 - Isolamento de dados</br>
-    Em Landing Zones com múltiplas contas, as equipas de nuvem podem conter potenciais ameaças de segurança dentro de uma conta sem afetar as outras. Elas também podem limitar quem tem acesso aos dados, prevenindo a exposição de informações pessoalmente identificáveis (PII), o que está em conformidade com o GDPR.
+    Em Landing Zones com múltiplas contas, as equipes de nuvem podem conter potenciais ameaças de segurança dentro de uma conta sem afetar as outras. Elas também podem limitar quem tem acesso aos dados, prevenindo a exposição de informações pessoais (PII), estando em aderente à diferentes regulamentações, como a LGPD por exemplo.
 
-- Prevenção de erros</br>
-    As Landing Zones proporcionam às organizações um processo repetível e previsível. Cada vez que uma nova carga de trabalho é implantada, os engenheiros e as equipas de desenvolvimento já sabem como ela se comportará.
+- Redução da complexidade</br>
+    As Landing Zones tornam a gestão dos workloads mais simples, já que o design é definido uma vez, sendo depois utilizado sempre que necessário de acordo com as necessidades do negócio.
 
 - Vantagem competitiva</br>
-    Ao simplificar processos e tornar as implantações mais diretas, você pode criar novos produtos e implantá-los mais rapidamente do que nunca.
+    Ao simplificar processos e tornar as implantações mais diretas, você pode criar novos produtos e implantá-los de uma forma mais rápida.
 
 <h2>Modelo de Arquitetura HUB & Spoke</h2>
+Todo esse papo de Landing Zone se converte em uma arquitetura bem desenhada e implantada, mas nada disso seria realmente interessante se não usassemos um conceito por trás disso tudo. Conceito esse chamado de Hub & Spoke.
+
+Para aqueles que estiverem acostumados com conceitos de rede tradicionais (geralmente visto em ambientes on-premises), o modelo HUB & Spoke nada mais é que uma topologia Estrela. Topologia essa que determina que um ponto central dentro do ambiente é responsável por permitir ou negar comunicação entre redes e/ou segmentos de rede distintos após realizar a inspeção de tráfego necessária. Dentro de uma arquitetura Hub & Spoke, temos um desenho muito semelhante ao que vimos na sessão anterior (<a href="Landing Zones">Landing Zones</a>)
