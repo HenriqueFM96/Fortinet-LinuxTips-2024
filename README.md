@@ -3,10 +3,10 @@
 <h2>
     <table style="align:center">
         <tr>
-            <th><img width="200px" src="https://icons.fortinet.com/icons/Logos/Fortinet-logo-rgb-white.svg"></img>
+            <th><img width="250px" src="https://icons.fortinet.com/icons/Logos/Fortinet-logo-rgb-white.svg"></img>
             </th>
             <th><h2>&</h2></th>
-            <th><img width="150px" src="https://lwfiles.mycourse.app/633c72fac8c963ec854a3950-public/4bd40f95b2194780fb1fcc79b4aea790.png"></img>
+            <th><img width="200px" src="https://lwfiles.mycourse.app/633c72fac8c963ec854a3950-public/4bd40f95b2194780fb1fcc79b4aea790.png"></img>
             </th>
         </tr>
     </table>
