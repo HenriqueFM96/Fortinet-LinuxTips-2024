@@ -140,11 +140,16 @@ Outro ponto extramamente interessante é que ao utilizar uma arquitetura com bas
 Agora com esses conceitos fundamentais em mente, podemos passar aos labs em si.
 
 <h3>1. Iniciando um ambiente dentro de uma subscrição Azure</h3>
+    Praticamente todos os provedores de nuvem pública oferecem hoje a possibilidade de utilizar uma conta gratuita, por pelo menos um período de tempo para que as pessoas possam se familiarizar com os conceitos de nuvem. Se você já possui uma subscrição da Azure, realize seu login lá. Caso ainda não possua, você pode criar uma agora através do <a href="https://azure.microsoft.com/en-us/free">link de criação de conta Azure</a>
+
 <h3>2. Criando as Spokes como vNETs na Azure</h3>
+    A partir desse ponto, teremos sempre 2 opções diferentes que levarão ao mesmo resultado:</br>
+        <mark>I. Criação do ambiente de maneira manual seguindo conhecimento prévio</br></mark>
+        <mark>II. Criação do ambiente de maneira automatizada utilizando os scripts Terraform ao lado.</mark>
+
 <h3>3. Interconectando as Spokes via Peering Connection</h3>
 <h3>4. Explorando uma vulnerabilidade existente</h3>
 <h3>5. Buscando Informações na Azure</h3>
 
 <h2>Bora aplicar os conceitos de segurança de rede em Cloud agora?
-</br><a href="">Criando o HUB de Segurança na Azure</a></h2>
-
+</br><a href="./SecurityHUB/README.md">Criando o HUB de Segurança na Azure</a></h2>
