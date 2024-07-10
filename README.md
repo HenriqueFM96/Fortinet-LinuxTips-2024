@@ -143,12 +143,16 @@ Agora com esses conceitos fundamentais em mente, podemos passar aos labs em si.
     Praticamente todos os provedores de nuvem pública oferecem hoje a possibilidade de utilizar uma conta gratuita, por pelo menos um período de tempo para que as pessoas possam se familiarizar com os conceitos de nuvem. Se você já possui uma subscrição da Azure, realize seu login lá. Caso ainda não possua, você pode criar uma agora através do <a href="https://azure.microsoft.com/en-us/free">link de criação de conta Azure</a>
 
 <h3>2. Criando as Spokes como vNETs na Azure</h3>
-    A partir desse ponto, teremos sempre 2 opções diferentes que levarão ao mesmo resultado:</br>
+    A partir desse ponto, teremos sempre uma explicação em ordem do que poderia ser realizado através da console Azure com o que chamamos de ClickOps (através de cliques), porém realizaremos todos esses passos de forma automatizada com a utilização dos scripts Terraform ao lado.
 
-        I. Criação do ambiente de maneira manual seguindo conhecimento prévio</br>
-        II. Criação do ambiente de maneira automatizada utilizando os scripts Terraform ao lado.
+</br>
+Para criarmos as nossas Spokes vamos começar primeiramente pelos Grupos de Recursos. Dentro da subscrição Azure, vá até Resource Groups e crie dois diferentes, um para armazenar todos os elementos utilizados pela aplicação A e outro para a aplicação B.
+Após isso, basta pesquisar por `virtual network` e criar a vNET com o endereçamento desejado.
+Para o nosso cenário de lab, a vNET Spoke A está definida com os seguintes parâmetros:
 
-Para criarmos as Spokes 
+
+`code goes here`
+
 
 <h3>3. Interconectando as Spokes via Peering Connection</h3>
 <h3>4. Explorando uma vulnerabilidade existente</h3>
