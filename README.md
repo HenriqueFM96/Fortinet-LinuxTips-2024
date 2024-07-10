@@ -144,8 +144,11 @@ Agora com esses conceitos fundamentais em mente, podemos passar aos labs em si.
 
 <h3>2. Criando as Spokes como vNETs na Azure</h3>
     A partir desse ponto, teremos sempre 2 opções diferentes que levarão ao mesmo resultado:</br>
-        <mark>I. Criação do ambiente de maneira manual seguindo conhecimento prévio</br></mark>
-        <mark>II. Criação do ambiente de maneira automatizada utilizando os scripts Terraform ao lado.</mark>
+
+        I. Criação do ambiente de maneira manual seguindo conhecimento prévio</br>
+        II. Criação do ambiente de maneira automatizada utilizando os scripts Terraform ao lado.
+
+Para criarmos as Spokes 
 
 <h3>3. Interconectando as Spokes via Peering Connection</h3>
 <h3>4. Explorando uma vulnerabilidade existente</h3>
