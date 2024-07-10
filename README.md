@@ -145,5 +145,6 @@ Agora com esses conceitos fundamentais em mente, podemos passar aos labs em si.
 <h3>4. Explorando uma vulnerabilidade existente</h3>
 <h3>5. Buscando Informações na Azure</h3>
 
-<h2>Bora aplicar os conceitos de segurança de rede em Cloud agora? <a href="">Criando o HUB de Segurança na Azure</a></h2>
+<h2>Bora aplicar os conceitos de segurança de rede em Cloud agora?
+</br><a href="">Criando o HUB de Segurança na Azure</a></h2>
 
