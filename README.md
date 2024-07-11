@@ -150,40 +150,11 @@ Para criarmos as nossas Spokes vamos começar primeiramente pelos Grupos de Recu
 Após isso, basta pesquisar por `virtual network` e criar a vNET com o endereçamento desejado.
 Para o nosso cenário de lab, a vNET Spoke A está definida com os seguintes parâmetros:
 
-<table>
-    <tr>
-        <th>Recurso</th>
-        <th>Nome/Detalhe</th>
-    </tr>
-    <tr>
-        <th>Resource Group</th>
-        <td>Spoke_A-RG</td>
-    </tr>
-</table>
-</br>
-<table>
-    <tr>
-        <th>Recurso</th>
-        <th>Nome/Detalhe</th>
-    </tr>
-    <tr>
-        <th>vNET</th>
-        <td>Spoke_A-vNET</td>
-    </tr>
-    <tr>
-        <th>Escopo (CIDR):</th>
-        <td>172.16.0.0/16</td>
-    </tr>
-    <tr>
-        <th>vNET</th>
-        <td>Spoke_B-vNET</td>
-    </tr>
-</table>
+
+`code goes here`
+
 
 <h3>3. Interconectando as Spokes via Peering Connection</h3>
-Agora já temos praticamente todos os nossos recursos criados. Portanto, só nos faltaria conectar as 2 vNETs de aplicações para que os recursos possam se conectar
-Após isso, vamos executar os testes de segurança simulando um ataque.
-
 <h3>4. Explorando uma vulnerabilidade existente</h3>
 <h3>5. Buscando Informações na Azure</h3>
 
