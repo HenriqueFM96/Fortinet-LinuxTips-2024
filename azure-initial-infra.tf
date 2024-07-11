@@ -158,7 +158,7 @@ resource "azurerm_network_interface_security_group_association" "spokeA-vm1-nsg"
 }
 
 resource "azurerm_linux_virtual_machine" "SpokeA-VM01" {
-  name                = "${var.TAG_Spoke_A}-VM01"
+  name                = "${var.TAG_Spoke_A}VM01"
   resource_group_name = azurerm_resource_group.azure-spoke_A-resource-group.name
   location            = azurerm_resource_group.azure-spoke_A-resource-group.location
   size                = var.spoke-vm-size
@@ -211,7 +211,7 @@ resource "azurerm_network_interface_security_group_association" "spokeA-vm2-nsg"
 }
 
 resource "azurerm_linux_virtual_machine" "SpokeA-VM02" {
-  name                = "${var.TAG_Spoke_A}-VM02"
+  name                = "${var.TAG_Spoke_A}VM02"
   resource_group_name = azurerm_resource_group.azure-spoke_A-resource-group.name
   location            = azurerm_resource_group.azure-spoke_A-resource-group.location
   size                = var.spoke-vm-size
@@ -258,7 +258,7 @@ resource "azurerm_network_interface" "spoke_B-vnic1" {
 }
 
 resource "azurerm_linux_virtual_machine" "SpokeB-VM01" {
-  name                = "${var.TAG_Spoke_B}-VM01"
+  name                = "${var.TAG_Spoke_B}VM01"
   resource_group_name = azurerm_resource_group.azure-spoke_B-resource-group.name
   location            = azurerm_resource_group.azure-spoke_B-resource-group.location
   size                = var.spoke-vm-size
