@@ -291,6 +291,7 @@ resource "azurerm_linux_virtual_machine" "SpokeB-VM01" {
   }
 }
 
+/*
 #########################################################################################
 #                        Azure Storage Account for Serial Connection                    #
 #########################################################################################
@@ -306,3 +307,4 @@ resource "azurerm_storage_account" "Spoke-A-Storage-Account" {
     environment = "PROD"
   }
 }
+*/
