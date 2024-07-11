@@ -69,7 +69,7 @@ resource "azurerm_network_security_group" "azure-spoke_A-sg" {
 
 // Resource Group for Spoke B
 resource "azurerm_resource_group" "azure-spoke_B-resource-group" {
-  name     = "${var.ContentTAG}${var.TAG_Spoke_A}-Resource_Group"
+  name     = "${var.ContentTAG}${var.TAG_Spoke_B}-Resource_Group"
   location = var.location
 }
 
