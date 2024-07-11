@@ -163,6 +163,9 @@ resource "azurerm_linux_virtual_machine" "SpokeA-VM01" {
   location            = azurerm_resource_group.azure-spoke_A-resource-group.location
   size                = var.spoke-vm-size
   admin_username      = var.spoke-vm-username
+  boot_diagnostics {
+       storage_account_uri = null
+   }
   network_interface_ids = [
     azurerm_network_interface.spoke_A-vnic1.id,
   ]
@@ -216,6 +219,9 @@ resource "azurerm_linux_virtual_machine" "SpokeA-VM02" {
   location            = azurerm_resource_group.azure-spoke_A-resource-group.location
   size                = var.spoke-vm-size
   admin_username      = var.spoke-vm-username
+  boot_diagnostics {
+       storage_account_uri = null
+   }
   network_interface_ids = [
     azurerm_network_interface.spoke_A-vnic2.id,
   ]
