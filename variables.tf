@@ -78,7 +78,7 @@ variable "spoke_B_subnet01" {
 // Spokes' VM-Size & Family
 variable "spoke-vm-size" {
   type    = string
-  default = "Standard_F2"
+  default = "Standard_B1s"
 }
 
 // Spokes' VM username
