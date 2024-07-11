@@ -287,3 +287,19 @@ resource "azurerm_linux_virtual_machine" "SpokeB-VM01" {
     version   = "latest"
   }
 }
+
+#########################################################################################
+#                        Azure Storage Account for Serial Connection                    #
+#########################################################################################
+
+resource "azurerm_storage_account" "Spoke-A-Storage-Account" {
+  name                     = "Spoke-A-StorageAccount"
+  resource_group_name      = azurerm_resource_group.azure-spoke_A-resource-group.name
+  location                 = azurerm_resource_group.azure-spoke_A-resource-group.location
+  account_tier             = "Standard"
+  account_replication_type = "GRS"
+
+  tags = {
+    environment = "PROD"
+  }
+}
