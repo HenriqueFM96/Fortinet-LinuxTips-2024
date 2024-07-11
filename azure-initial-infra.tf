@@ -148,7 +148,16 @@ resource "azurerm_network_interface" "spoke_A-vnic1" {
     name                          = "${var.TAG_Spoke_A}-internal-vm01"
     subnet_id                     = azurerm_subnet.azure-spoke_A-subnet01.id
     private_ip_address_allocation = "Dynamic"
+    public_ip_address_id          = azurerm_public_ip.Spoke_A-public_ip.id
   }
+}
+
+// Public IP Creation
+resource "azurerm_public_ip" "Spoke_A-public_ip" {
+  name                = "spokeA-VM01-pip"
+  resource_group_name = azurerm_resource_group.azure-spoke_A-resource-group.name
+  location            = azurerm_resource_group.azure-spoke_A-resource-group.location
+  allocation_method   = "Dynamic"
 }
 
 // Network Interface VM01 Association to NSG
