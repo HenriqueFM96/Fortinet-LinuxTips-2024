@@ -150,9 +150,11 @@ Para criarmos as nossas Spokes vamos começar primeiramente pelos Grupos de Recu
 Após isso, basta pesquisar por `virtual network` e criar a vNET com o endereçamento desejado.
 Para o nosso cenário de lab, a vNET Spoke A está definida com os seguintes parâmetros:
 
-
-`code goes here`
-
+<table>
+    <tr>
+        <th>Title</th>
+    </tr>
+</table>
 
 <h3>3. Interconectando as Spokes via Peering Connection</h3>
 <h3>4. Explorando uma vulnerabilidade existente</h3>
