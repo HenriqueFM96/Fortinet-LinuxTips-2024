@@ -1,4 +1,4 @@
-/*
+
 #########################################################################################
 #                               Security HUB Infra Creation                             #
 #########################################################################################
@@ -138,4 +138,3 @@ resource "azurerm_network_interface_security_group_association" "fgt-port2-nsg" 
   network_interface_id      = azurerm_network_interface.fgtport2.id
   network_security_group_id = azurerm_network_security_group.azure-hub-sg.id
 }
-*/
