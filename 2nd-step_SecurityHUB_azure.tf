@@ -121,7 +121,7 @@ resource "azurerm_network_interface" "fgtport2" {
   name                 = "fgtport2"
   location             = var.location
   resource_group_name  = azurerm_resource_group.azure-hub-resource-group.name
-  ip_forwarding_enabled = true
+  enable_ip_forwarding = true
 
   ip_configuration {
     name                          = "ipconfig1"
