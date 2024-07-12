@@ -1,3 +1,46 @@
+#########################################
+#              LAB Location             #
+#########################################
+
+variable "location" {
+    type = string
+    default = "Central US"
+}
+
+#########################################
+#            VAR Spokes TAGs            #
+#########################################
+
+// var Content TAG
+variable "ContentTAG" {
+    type = string
+    default = "LinuxTips-"
+}
+
+// var PROD TAG
+variable "StageTAG_PROD" {
+    type = string
+    default = "PROD"
+}
+
+// var QA TAG
+variable "StageTAG_QA" {
+    type = string
+    default = "QA"
+}
+
+// var Spoke_A TAG
+variable "TAG_Spoke_A" {
+    type = string
+    default = "Spoke_A"
+}
+
+// var Spoke_B TAG
+variable "TAG_Spoke_B" {
+    type = string
+    default = "Spoke_B"
+}
+
 ##########################################
 #          FortiGate-VM Variables        #
 ##########################################

@@ -1,4 +1,4 @@
-/*
+
 #########################################################################################
 #                              Spoke A - Route Table Creation                           #
 #########################################################################################
@@ -127,4 +127,3 @@ resource "azurerm_virtual_network_peering" "vnet-HUB-to-SpokeB" {
   virtual_network_name      = azurerm_virtual_network.azure-hub-vnet.name
   remote_virtual_network_id = azurerm_virtual_network.azure-spoke_B-vnet.id
 }
-*/
