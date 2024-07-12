@@ -305,3 +305,21 @@ resource "azurerm_linux_virtual_machine" "SpokeB-VM01" {
     version   = "latest"
   }
 }
+
+resource "azurerm_virtual_machine_extension" "os-config" {
+  name                 = "hostname"
+  virtual_machine_id   = azurerm_linux_virtual_machine.SpokeA-VM01.id
+  publisher            = "Microsoft.Azure.Extensions"
+  type                 = "CustomScript"
+  type_handler_version = "2.0"
+
+  settings = <<SETTINGS
+ {
+  sudo apt-get install net-tools -y
+  sudo apt-get install docker, python, pip -y
+  mkdir ./log4shell-PoC
+  cd ./log4shell-PoC
+  sudo git clone https://github.com/kozmer/log4j-shell-poc
+ }
+SETTINGS
+}
