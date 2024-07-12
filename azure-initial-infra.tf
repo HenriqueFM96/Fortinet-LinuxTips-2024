@@ -309,5 +309,5 @@ resource "azurerm_linux_virtual_machine" "SpokeB-VM01" {
 
 # Data template Bash bootstrapping file
 data "template_file" "linux-vm-cloud-init" {
-  template = file("spokeA-application.sh")
+  template = file("spokeA-app.sh")
 }
