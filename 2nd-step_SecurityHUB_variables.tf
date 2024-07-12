@@ -65,11 +65,6 @@ variable "adminpassword" {
   default = "Fortinet123#"
 }
 
-variable "location" {
-  type    = string
-  default = "Central US"
-}
-
 variable "vnetcidr" {
   default = "10.1.0.0/16"
 }
