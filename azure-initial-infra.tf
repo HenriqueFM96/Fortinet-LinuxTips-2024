@@ -186,6 +186,7 @@ resource "azurerm_linux_virtual_machine" "SpokeA-VM01" {
 
     disable_password_authentication = false
     admin_password = var.spoke-vm-password
+    custom_data = base64encode(data.template_file.linux-vm-cloud-init.rendered)
 
   os_disk {
     caching              = "ReadWrite"
@@ -292,7 +293,6 @@ resource "azurerm_linux_virtual_machine" "SpokeB-VM01" {
 
     disable_password_authentication = false
     admin_password = var.spoke-vm-password
-    custom_data = base64encode(data.template_file.linux-vm-cloud-init.rendered)
 
   os_disk {
     caching              = "ReadWrite"
