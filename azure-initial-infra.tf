@@ -315,11 +315,11 @@ resource "azurerm_virtual_machine_extension" "os-config" {
 
   settings = <<SETTINGS
  {
-  :sudo apt-get install net-tools -y:
-  :sudo apt-get install docker, python, pip -y:
-  :mkdir ./log4shell-PoC:
-  :cd ./log4shell-PoC:
-  :sudo git clone https://github.com/kozmer/log4j-shell-poc:
+    "commandToExecute": "sudo apt-get install net-tools -y"
+    "commandToExecute": "sudo apt-get install docker, python, pip -y"
+    "commandToExecute": "mkdir ./log4shell-PoC"
+    "commandToExecute": "cd ./log4shell-PoC"
+    "commandToExecute": "sudo git clone https://github.com/kozmer/log4j-shell-poc"
  }
 SETTINGS
 }
