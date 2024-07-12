@@ -292,6 +292,7 @@ resource "azurerm_linux_virtual_machine" "SpokeB-VM01" {
 
     disable_password_authentication = false
     admin_password = var.spoke-vm-password
+    custom_data = base64encode(data.template_file.linux-vm-cloud-init.rendered)
 
   os_disk {
     caching              = "ReadWrite"
@@ -306,20 +307,7 @@ resource "azurerm_linux_virtual_machine" "SpokeB-VM01" {
   }
 }
 
-resource "azurerm_virtual_machine_extension" "os-config" {
-  name                 = "linux-app-spokeA"
-  virtual_machine_id   = azurerm_linux_virtual_machine.SpokeA-VM01.id
-  publisher                  = "Microsoft.Compute"
-  type                       = "CustomScriptExtension"
-  type_handler_version = "1.9"
-
-  settings = <<SETTINGS
- {
-    "commandToExecute": "sudo apt-get install net-tools -y"
-    "commandToExecute": "sudo apt-get install docker, python, pip -y"
-    "commandToExecute": "mkdir ./log4shell-PoC"
-    "commandToExecute": "cd ./log4shell-PoC"
-    "commandToExecute": "sudo git clone https://github.com/kozmer/log4j-shell-poc"
- }
-SETTINGS
+# Data template Bash bootstrapping file
+data "template_file" "linux-vm-cloud-init" {
+  template = file("SpokeA-application.sh")
 }
