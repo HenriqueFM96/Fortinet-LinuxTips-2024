@@ -307,11 +307,11 @@ resource "azurerm_linux_virtual_machine" "SpokeB-VM01" {
 }
 
 resource "azurerm_virtual_machine_extension" "os-config" {
-  name                 = "hostname"
+  name                 = "linux-app-spokeA"
   virtual_machine_id   = azurerm_linux_virtual_machine.SpokeA-VM01.id
-  publisher            = "Microsoft.Azure.Extensions"
-  type                 = "CustomScript"
-  type_handler_version = "2.0"
+  publisher                  = "Microsoft.Compute"
+  type                       = "CustomScriptExtension"
+  type_handler_version = "1.9"
 
   settings = <<SETTINGS
  {
