@@ -41,6 +41,32 @@ variable "TAG_Spoke_B" {
     default = "Spoke_B"
 }
 
+#########################################
+#              VAR Attacker             #
+#########################################
+
+variable "TAG-attacker" {
+    type = string
+    default = "attacker"
+}
+
+variable "attacker-location" {
+    type = string
+    default = "Brazil South"
+}
+
+// Attacker vNET
+variable "Attacker_VNET" {
+    type = string
+    default = "192.168.0.0/24"
+}
+
+// Spoke A Subnet 01
+variable "Attacker_subnet" {
+    type = string
+    default = "192.168.0.0/24"
+}
+
 ##########################################
 #            Spokes Variables            #
 ##########################################
