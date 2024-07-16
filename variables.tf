@@ -61,7 +61,7 @@ variable "Attacker_VNET" {
     default = "192.168.0.0/24"
 }
 
-// Spoke A Subnet 01
+// Attacker Subnet
 variable "Attacker_subnet" {
     type = string
     default = "192.168.0.0/24"
