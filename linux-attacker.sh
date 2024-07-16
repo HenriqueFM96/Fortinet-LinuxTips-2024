@@ -15,5 +15,5 @@ pip install -r requirements.txt
 sudo wget https://storage.googleapis.com/hmoises-log4j-poc/jdk-8u20-linux-x64.tar.gz
 sudo tar -xf jdk-8u20-linux-x64.tar.gz
 ./jdk1.8.0_20/bin/java -version
-sudo apt install ubuntu-desktop-minimal
+sudo apt install ubuntu-desktop-minimal -y
 echo "installation finished. VM ready to run!"
