@@ -22,7 +22,7 @@ resource "azurerm_virtual_network" "azure-spoke_A-vnet" {
   }
 }
 
-// Subnet 01 for Spoke A
+// Subnet 01 for Spoke A 
 resource "azurerm_subnet" "azure-spoke_A-subnet01" {
   name                 = "${var.TAG_Spoke_A}-Subnet_01"
   resource_group_name  = azurerm_resource_group.azure-spoke_A-resource-group.name
