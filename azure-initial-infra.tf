@@ -32,7 +32,7 @@ resource "azurerm_subnet" "azure-spoke_A-subnet01" {
 
 // Subnet 02 for Spoke A
 resource "azurerm_subnet" "azure-spoke_A-subnet02" {
-  name                 = "${var.TAG_Spoke_B}-Subnet_02"
+  name                 = "${var.TAG_Spoke_A}-Subnet_02"
   resource_group_name  = azurerm_resource_group.azure-spoke_A-resource-group.name
   virtual_network_name = azurerm_virtual_network.azure-spoke_A-vnet.name
   address_prefixes     = [var.spoke_A_subnet02]
@@ -179,10 +179,10 @@ resource "azurerm_linux_virtual_machine" "SpokeA-VM01" {
     azurerm_network_interface.spoke_A-vnic1.id,
   ]
 
-//  admin_ssh_key {
-//  username   = "adminuser"
-//    public_key = file("~/.ssh/id_rsa.pub")
-//  }
+  tags = {
+    architecture = var.TAG_Spoke_A
+    environment = var.StageTAG_PROD
+  }
 
     disable_password_authentication = false
     admin_password = var.spoke-vm-password
@@ -236,10 +236,10 @@ resource "azurerm_linux_virtual_machine" "SpokeA-VM02" {
     azurerm_network_interface.spoke_A-vnic2.id,
   ]
 
-//  admin_ssh_key {
-//  username   = "adminuser"
-//    public_key = file("~/.ssh/id_rsa.pub")
-//  }
+  tags = {
+    architecture = var.TAG_Spoke_A
+    environment = var.StageTAG_QA
+  }
 
     disable_password_authentication = false
     admin_password = var.spoke-vm-password
@@ -286,10 +286,10 @@ resource "azurerm_linux_virtual_machine" "SpokeB-VM01" {
     azurerm_network_interface.spoke_B-vnic1.id,
   ]
 
-//  admin_ssh_key {
-//  username   = "adminuser"
-//    public_key = file("~/.ssh/id_rsa.pub")
-//  }
+  tags = {
+    architecture = var.TAG_Spoke_B
+    environment = var.StageTAG_PROD
+  }
 
     disable_password_authentication = false
     admin_password = var.spoke-vm-password

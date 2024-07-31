@@ -14,7 +14,7 @@ variable "location" {
 // var Content TAG
 variable "ContentTAG" {
     type = string
-    default = "LinuxTips-"
+    default = "demo"
 }
 
 // var PROD TAG
@@ -116,6 +116,6 @@ variable "spoke-vm-username" {
 // Spokes' VM Password
 variable "spoke-vm-password" {
     type = string
-    default = "Fortinet@LinuxTips#2024"
+    default = "P@ssw0rd#2024"
 }
 
