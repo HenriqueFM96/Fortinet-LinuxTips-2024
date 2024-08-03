@@ -24,13 +24,13 @@
             <td>Live #01</td>
             <td>Cibersegurança para todos: uma abordagem leve sobre riscos e tendências</td>
             <td><a href="https://www.youtube.com/watch?v=RrWhapTzxw0"><img width="40px" src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png"></img></a></td>
-            <td><a href="https://storage.googleapis.com/hmoises-linuxtips/2024%20-%20Intro%20Security%20-%20Linux%20Tips.pptx"><img width="100px" src="https://st.depositphotos.com/1031343/4758/v/450/depositphotos_47582053-stock-illustration-coming-soon-stamp.jpg"></img></a></td>
+            <td><a href="https://storage.googleapis.com/hmoises-linuxtips/2024%20-%20Intro%20Security%20-%20Linux%20Tips.pptx"><img width="100px" src="https://images.freeimages.com/fic/images/icons/2795/office_2013_hd/2000/powerpoint.png?fmt=webp&h=350"></img></a></td>
         </tr>
         <tr>
             <td>Live #02</td>
             <td>Apertem os cintos: Evitem turbulência de redes em Cloud</td>
             <td><a href="https://www.youtube.com/watch?v=IW9as0vm0-8"><img width="40px" src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png"></img></a></td>
-            <td><a href="https://storage.googleapis.com/hmoises-linuxtips/2024%20-%20LinuxTips%20-%20Live%2302%20-%20Cloud%20NetSec.pptx"><img width="100px" src="https://st.depositphotos.com/1031343/4758/v/450/depositphotos_47582053-stock-illustration-coming-soon-stamp.jpg"></img></a></td>
+            <td><a href="https://storage.googleapis.com/hmoises-linuxtips/2024%20-%20LinuxTips%20-%20Live%2302%20-%20Cloud%20NetSec.pptx"><img width="100px" src="https://images.freeimages.com/fic/images/icons/2795/office_2013_hd/2000/powerpoint.png?fmt=webp&h=350"></img></a></td>
         </tr>
         <tr>
             <td>Live #03</td>
