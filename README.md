@@ -45,8 +45,12 @@
     </table>
 </h3>
 
-Sejam bem-vindos ao conteúdo de Network Security pensado especialmente para você que participou das lives do Bonde da Fortinet no LinuxTips até aqui!!
-Dentro desse repositório você pode conferir todo o laboratório de ataque e defesa que foi realizado durante a Live #02 (calma que já já liberamos o conteúdo da Live #03).
+Sejam bem-vindos ao conteúdo de Security pensado especialmente para você que participou das lives do Bonde da Fortinet no LinuxTips até aqui!!
+Dentro desse repositório você pode conferir os conteúdos abordados durante as 2 lives que fizeram parte do bonde (e claro que da live introdutória também).
+
+Aqui abaixo você encontra um resumo simples sobre alguns dos pontos que tiveram de dúvidas durante as lives, porém fiquem à vontade para perguntar mais coisas aqui (ou via Live Gravada no YouTube). Vou tentando deixar tudo sempre atualizado por aqui ;)
+
+-------
 
 <h2>Cloud Network Security</h2>
 Quando o assunto é segurança de rede em nuvem, é extremamente importante entender conceitos fundamentais de rede & roteamento, bem como camadas de segurança nativas de nuvem. Abaixo você encontra alguns deles, mas lembre-se que a live foi gravada e está disponível no link do YouTube na tabela de referêcia das lives (ali em cima).
