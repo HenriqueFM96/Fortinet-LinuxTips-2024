@@ -23,13 +23,13 @@
         <tr>
             <td>Live #02</td>
             <td>Apertem os cintos: Evitem turbulência de redes em Cloud</td>
-            <td><img width="40px" href="https://www.youtube.com/watch?v=IW9as0vm0-8" src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png"></img></td>
+            <td><a href="https://www.youtube.com/watch?v=IW9as0vm0-8"><img width="40px" src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png"></img></a></td>
             <td><a><img width="100px" src="https://st.depositphotos.com/1031343/4758/v/450/depositphotos_47582053-stock-illustration-coming-soon-stamp.jpg"></img></a></td>
         </tr>
         <tr>
             <td>Live #03</td>
             <td>Sobrevoando nuvens e protegendo aplicações</td>
-            <td><img width="40px" href="https://www.youtube.com/watch?v=OhY5hkJ441U" src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png"></img></td>
+            <td><a href="https://www.youtube.com/watch?v=OhY5hkJ441U"><img width="40px" src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png"></img></a></td>
             <td><a><img width="100px" src="https://st.depositphotos.com/1031343/4758/v/450/depositphotos_47582053-stock-illustration-coming-soon-stamp.jpg"></img></a></td>
         </tr>
     </table>
