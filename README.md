@@ -132,33 +132,3 @@ Considere o ponto central (HUB) como sendo o centralizador de toda comunicação
 Outro ponto extramamente interessante é que ao utilizar uma arquitetura com base no modelo Hub & Spoke, toda a parte de conexão entre diferentes ambientes (diferentes Provedores de Cloud e/ou diferentes Regiões) podem ser facilmente conectados entre si, permitindo com que os melhores recursos de cada provedor de nuvem sejam utilizados, sem perder agilidade nem segurança. Principalmente considerando a possibilidade de utilizar um roteamento com base em aplicação, latência, jitter, dentre outras métricas para sempre ter o tráfego roteado pelo caminho em que possibilita uma melhor experiência aos usuários (SD-WAN).
 
 <img height="500px" src="./images/HUB&Spoke-multiplos_ambientes.png"></img>
-
-<h3>Pausa para o café...</h3>
-<img width="250px" src="./images/quero-cafe.png"></img>
-
-<h2>Mãos à massa</h2>
-Agora com esses conceitos fundamentais em mente, podemos passar aos labs em si.
-
-<h3>1. Iniciando um ambiente dentro de uma subscrição Azure</h3>
-    Praticamente todos os provedores de nuvem pública oferecem hoje a possibilidade de utilizar uma conta gratuita, por pelo menos um período de tempo para que as pessoas possam se familiarizar com os conceitos de nuvem. Se você já possui uma subscrição da Azure, realize seu login lá. Caso ainda não possua, você pode criar uma agora através do <a href="https://azure.microsoft.com/en-us/free">link de criação de conta Azure</a>
-
-<h3>2. Criando as Spokes como vNETs na Azure</h3>
-    A partir desse ponto, teremos sempre uma explicação em ordem do que poderia ser realizado através da console Azure com o que chamamos de ClickOps (através de cliques), porém realizaremos todos esses passos de forma automatizada com a utilização dos scripts Terraform ao lado.
-
-</br>
-Para criarmos as nossas Spokes vamos começar primeiramente pelos Grupos de Recursos. Dentro da subscrição Azure, vá até Resource Groups e crie dois diferentes, um para armazenar todos os elementos utilizados pela aplicação A e outro para a aplicação B.
-Após isso, basta pesquisar por `virtual network` e criar a vNET com o endereçamento desejado.
-Para o nosso cenário de lab, a vNET Spoke A está definida com os seguintes parâmetros:
-
-<table>
-    <tr>
-        <th>Title</th>
-    </tr>
-</table>
-
-<h3>3. Interconectando as Spokes via Peering Connection</h3>
-<h3>4. Explorando uma vulnerabilidade existente</h3>
-<h3>5. Buscando Informações na Azure</h3>
-
-<h2>Bora aplicar os conceitos de segurança de rede em Cloud agora?
-</br><a href="./SecurityHUB/README.md">Criando o HUB de Segurança na Azure</a></h2>
