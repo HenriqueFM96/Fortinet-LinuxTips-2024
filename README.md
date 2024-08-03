@@ -15,6 +15,12 @@
 <h3>
     <table>
         <tr>
+            <th>Live #</th>
+            <th>Título da Live</th>
+            <th>Gravação</th>
+            <th>Slide Deck</th>
+        </tr>
+        <tr>
             <td>Live #01</td>
             <td>Cibersegurança para todos: uma abordagem leve sobre riscos e tendências</td>
             <td><a href="https://www.youtube.com/watch?v=RrWhapTzxw0"><img width="40px" src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png"></img></a></td>
