@@ -1,5 +1,3 @@
-![image](https://github.com/user-attachments/assets/b4a69da3-7a98-46b5-8c2e-9c15b2156068)<h1 style="text-align:center">Fortinet @ LinuxTips - Bonde Fortinet 2024</h1>
-
 <h2>
     <table>
         <tr>
