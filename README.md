@@ -40,7 +40,7 @@
             <td>Live #03</td>
             <td>Sobrevoando nuvens e protegendo aplicações</td>
             <td><a href="https://www.youtube.com/watch?v=OhY5hkJ441U"><img width="40px" src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png"></img></a></td>
-            <td><a href="https://storage.googleapis.com/hmoises-linuxtips/2024%20-%20LinuxTips%20-%20Live%2303%20-%20Cloud%20AppSec.pptx"><img width="100px" src="https://st.depositphotos.com/1031343/4758/v/450/depositphotos_47582053-stock-illustration-coming-soon-stamp.jpg"></img></a></td>
+            <td><a href="https://storage.googleapis.com/hmoises-linuxtips/2024%20-%20LinuxTips%20-%20Live%2303%20-%20Cloud%20AppSec.pptx"><img width="100px" src="https://images.freeimages.com/fic/images/icons/2795/office_2013_hd/2000/powerpoint.png?fmt=webp&h=350"></img></a></td>
             <td><a href="https://github.com/HenriqueFM96/Fortinet-LinuxTips-2024/blob/main/2024%20-%20LinuxTips%20-%20Live%2303%20-%20Cloud%20AppSec.pdf"><img width="50px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGAA4Wd4bco5Xv33GasXrnDdQT5OFXwa3HUQ&s"></img></a></td>
             <td><a><img width="100px" src="https://st.depositphotos.com/1031343/4758/v/450/depositphotos_47582053-stock-illustration-coming-soon-stamp.jpg"></img></a></td>
         </tr>
